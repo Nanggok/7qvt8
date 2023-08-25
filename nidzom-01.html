@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <title>NIDZOM</title>
+  </head>
+
+  <body>
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+
+    <style type="text/css">
+     @font-face{
+		font-family:'LPMQ';
+		src:url('https://uminabdillah.github.io/fonts/lpmq.eot');
+		src:url('https://uminabdillah.github.io/fonts/lpmq.eot?#iefix') format('embedded-opentype'),
+		url('https://raw.githubusercontent.com/jehanabe/font/main/LPMQ_IsepMisbah.ttf') format('truetype');
+		font-weight:400;
+		font-weight:normal;
+		font-display: swap;
+		}
+		.arab{
+		font-size: 26px;
+		line-height: 48px;
+		font-family: LPMQ,"Traditional Arabic",Tahoma,sans-serif;
+		font-weight: normal;
+		text-align: right;
+		direction: rtl;
+		}
+		
+		@font-face{
+		font-family:"myCustomFont";
+		src:url("https://raw.githubusercontent.com/jehanabe/font/main/custom_font.ttf");
+		
+		}
+		
+		       
+    hr{
+        height: 1px;
+        background-color: #ccc;
+        border: none;
+    }
+
+
+    </style>
+
+    <!-- for the one page layout -->
+    <style type="text/css">
+      section {
+        border-top: 1px solid #ccc;
+        padding: 150px 0 200px;
+      }
+      section:first-child {
+        border-top: none;
+        padding-top: 0;
+      }
+    </style>
+
+    <!-- for the fixed header -->
+    <style type="text/css">
+      .header,
+      .footer {
+        position: fixed;
+        left: 0;
+        right: 0;
+      }
+      .header {
+        top: 0;
+      }
+      .footer {
+        bottom: 0;
+      }
+      @media (min-width: 2000px) {
+        .header a {
+          display: none;
+        }
+      }
+    </style>
+
+    <script type="text/javascript" src="jquery.min.js"></script>
+
+    <script type="text/javascript">
+      $(function () {
+        $(".font-button").bind("click", function () {
+          var size = parseInt($("body").css("font-size"));
+          if ($(this).hasClass("plus")) {
+            size = size + 2;
+          } else {
+            size = size - 2;
+            if (size <= 10) {
+              size = 10;
+            }
+          }
+          $("body").css("font-size", size);
+        });
+      });
+    </script>
+
+    <script type="text/javascript">
+      $(function () {
+        $(".font-button").bind("click", function () {
+          var size = parseInt($("#content").css("font-size"));
+          if ($(this).hasClass("plus")) {
+            size = size + 2;
+          } else {
+            size = size - 2;
+            if (size <= 10) {
+              size = 10;
+            }
+          }
+          $("#content").css("font-size", size);
+        });
+      });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $("#hide").click(function () {
+          $("p").hide();
+        });
+        $("#show").click(function () {
+          $("p").show();
+        });
+      });
+    </script>
+
+    <script>
+      function DarkMode() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
+	<!-- pembatas -->
+    <div class="header Fixed">
+		NIDZOM
+	</div>
+	<!-- pembatas -->
+		<a  id="show"><img
+			style="position: fixed; top: 7px; left: 5%; width: 30px"
+			src="latin.png"/>
+		</a>
+	<!-- pembatas -->		
+		<a  class="font-button minus">
+			<img style="position: fixed; top: 7px; left: 15%; width: 30px"
+			src="a-.png"/>
+		</a>
+	<!-- pembatas -->		
+		<a  class="font-button plus">
+			<img style="position: fixed; top: 7px; right: 15%; width: 30px"
+			src="a+.png"/>
+		</a>
+	<!-- pembatas -->		
+		<a  id="hide">
+			<img style="position: fixed; top: 7px; right: 5%; width: 30px"
+			src="arab.png"/>
+		</a>
+	<!-- pembatas -->
+    <div class="content" id="content">
+			<hr>
+			<!-- pembatas -->		
+				<div class="arab3center">	
+			(طريق الإمان)
+		</div>
+			<div class="arab4">	
+ينهَضُ الإنسانُ بما عندَهُ مِن فكرٍ عَنِ الحياةِ والكونِ والإنسان،ِ وَعَن
+عَلاقَتِهَا جميعِها بما قبلَ الحياةِ الدُنيا وما بعدَها. فكانَ لا بُدَّ مِن تغييرِ فكـرِ
+الإنسانِ الحاضرِ تغييراً أساسياً شاملاً، وإيجادِ فكرٍ آخرَ لَهُ حتّى ينهَضَ، لأَنَّ
+الفكرَ هو الذي يوجِدُ المفاهيمَ عنِ الأشياء،ِ ويركِّزُ هذِهِ المفاهيمَ. والإنسانُ
+يُكَيِّفُ سلوكَهُ في الحياةِ بِحَسَبِ مفاهيمِهِ عَنْهَا، فمفـاهيمُ الإنـسانِ عَـنْ 
+شخصٍ يُحِبُّهُ تُكيِّفُ سلوكَه نَحْوَه، على النَّقِيضِ مِنْ سلوكِهِ مَعَ شَـخْصٍ
+يُبغِضُهُ وعندَهُ مفاهيمُ البُغْضِ عَنْه،ُ وعلى خِلافِ سلوكِهِ مع شخصٍ لا يعرفُهُ
+ولا يُوجَدُ لَدَيْهِ أيُّ مفهومٍ عَنْه، فالسلوكُ الإنسانيُّ مربوطٌ بمفاهيمِ الإنسان،ِ 
+وعندَ إرادتِنَا أَنْ نغيِّرَ سلوكَ الإنسانِ المنخفِضِ ونجعلَهُ سلوكاً راقياً لابدَّ مِنْ أَنْ نغيِّرَ مفهومَهُ أَوَّلاً (إِنَّ اللّٰهَ لَايُغَيِّرُ مَابِقَوْمٍ حَتَّى يُغَيِّرُوْا مَابِقَوْمٍ بِأَنْفُسِهِمْ)
+
+</div>
+<p>
+JALAN MENUJU IMAN
+Bangkitnya manusia tergantung pada pemikirannya tentang hidup, alam semesta, dan manusia, serta hubungan ketiganya dengan sesuatu yang ada sebelum kehidupan dunia dan yang ada sesudahnya. Agar manusia mampu bangkit harus ada perubahan mendasar dan menyeluruh terhadap pemikiran manusia dewasa ini, untuk kemudian diganti dengan pemikiran lain. Sebab, pemikiranlah yang membentuk dan memperkuat mafahim (persepsi) terhadap segala sesuatu. Disamping itu, manusia selalu mengatur tingkah lakunya dalam kehidupan ini sesuai dengan mafahim-nya terhadap kehidupan. Sebagai contoh, mafahim seseorang terhadap orang yang dicintainya akan membentuk perilaku yang berlawanan dari orang tersebut terhadap orang lain yang dibencinya, karena ia memiliki mafahim kebencian terhadapnya.
+
+Begitu juga akan berbeda terhadap orang yang sama sekali tidak dikenalnya, karena ia tidak memiliki mafhum apapun terhadap orang tersebut. Jadi, tingkah laku manusia selalu berkaitan erat dengan mafahim yang dimilikinya. Dengan demikian, apabila kita hendak mengubah tingkah laku manusia yang rendah menjadi luhur, maka tidak ada jalan lain kecuali harus mengubah mafhum-nya terlebih dahulu. Dalam hal ini, Allah SWT berfirman: “Sesungguhnya Allah tidak akan mengubah keadaan suatu kaum, sebelum kaum itu sendiri mengubah apa yang ada pada diri mereka” (TQS. Ar-Ra’d [13]: 11). 
+</p>
+<hr>
+<!-- pembatas -->		
+	<div class="arab4">	
+والطريقُ الوحيدُ لتغييِر المفاهيمِ هُوَ إيجادُ الفكرِ عَنِ الحيـاةِ الـدنيا 
+حتَّى تُوجَدَ بواسطتِهِ المفاهيمُ الصحيحةُ عَنْهَا. والفكرُ عَنِ الحياةِ الـدنيا لا
+يتركَّزُ تَرَكُّزاً مُنْتِجاً إِلاّ بعدَ أَنْ يُوجَدَ الفكرُ عَنِ الكونِ والإنسانِ والحيـاة،ِ
+وعمَّا قبلَ الحياةِ الدنيا وعمَّا بعدَها، وعَنْ عَلاقتِها بما قبلَهَا ومـا بعـدَهَا، وذَلِكَ بإِعطاءِ الفكرةِ الكُلِّيَةِ عمَّا وراءَ هذَا الكونِ والإنسانِ والحياة.ِ لأنَّهـا
+القاعدةُ الفكريةُ التي تُبْنَى عليْهَا جَميعُ الأفكارِ عَنِ الحياة.ِ وإِعطاءُ الفكـرةِ
+الكليةِ عَنْ هذِهِ الأَشْيَاءِ هُوَ حَلُّ العُقْدَةِ الكُبْرى عِندَ الإنسانِ . ومتى حُلَّـتْ
+هذه العقدةُ حُلَّت باقِي العُقَدِ، لأنها جزئيةٌ بالنِسْبَةِ لَهَا، أَوْ فُروعٌ عَنْها. لَكِنَّ هذا الحلَّ لا يُوصِلُ إِلى النَّهضةِ الصحيحةِ إلا إذا كانَ حلًا صحيحًا يوافِـقُ 
+فِطْرَةَ الإنسان،ِ ويُقْنِعُ العقلَ، فَيَمْلأُ القَلبَ طُمَأْنِينَةً.
+</div>
+<p>
+Satu-satunya jalan untuk mengubah mafahim seseorang adalah dengan mewujudkan suatu pemikiran tentang kehidupan dunia sehingga dapat terwujud mafahim yang benar tentang kehidupan tersebut. Namun, pemikiran seperti ini tidak akan melekat erat dan memberikan hasil yang berarti, kecuali apabila terbentuk dalam dirinya pemikiran tentang alam semesta, manusia, dan hidup; tentang Zat yang ada sebelum kehidupan dunia dan apa yang ada sesudahnya; disamping juga keterkaitan kehidupan dunia dengan Zat yang ada sebelumnya dan apa yang ada sesudahnya. Semua itu dapat dicapai dengan memberikan kepada manusia pemikiran menyeluruh dan sempurna tentang apa yang ada di balik ketiga unsur utama tadi. Sebab, pemikiran menyeluruh dan sempurna semacam ini merupakan landasan berpikir (al-qa’idah al-fikriyah) yang melahirkan seluruh pemikiran cabang tentang kehidupan dunia. Memberikan pemikiran menyeluruh mengenai ketiga unsur tadi, merupakan solusi fundamental pada
+diri manusia. Apabila solusi fundamental ini teruraikan, maka terurailah berbagai masalah lainnya. Sebab, seluruh problematika kehidupan pada dasarnya merupakan cabang dari problematika pokok tadi. Namun demikian, pemecahan itu tidak akan mengantarkan kita pada kebangkitan yang benar, kecuali jika pemecahan itu sendiri adalah benar, yaitu sesuai dengan fitrah manusia, memuaskan akal, dan memberikan ketenangan hati.
+</p>
+<hr>
+<!-- pembatas -->		
+	<div class="arab4">
+ولا يمكنُ أنْ يوجدَ هذا الحلُّ الصحيحُ إلا بالفكرِ المـستنيِر عـنِ
+الكونِِ والإنسانِِ والحياةِ. لذلكَ كانَ على مُرِيدِي النهضةِ والسيرِ في طريـقِ 
+الرُّقِيِّ أَنْ يَحُلُّوا هذِهِ العقدةَ أولًا حلًا صحيحًا بواسطةِ الفكرِ المستنيرِ، وهذا
+الحلُّ هو العقيدةُ، وهو القاعدةُ الفكريةُ التي يُبنى عليها كلُّ فكرٍ فَرْعِيٍّ عَـنِ
+السلوكِ في الحياةِ وعنْ أنظمةِ الحياةِ
+</div>
+<p>
+Pemecahan yang benar tidak akan dapat ditempuh kecuali dengan al-fikru al-mustanir (pemikiran cemerlang) tentang alam semesta, manusia, dan hidup. Karena itu, bagi mereka yang menghendaki kebangkitan dan menginginkan kehidupannya berada pada jalan yang mulia, mau tidak mau lebih dahulu mereka harus memecahkan problematika pokok tersebut dengan benar, melalui berpikir secara cemerlang tadi. Pemecahan inilah yang menghasilkan akidah, dan menjadi landasan berpikir yang melahirkan setiap pemikiran cabang tentang perilaku manusia di dunia ini serta peraturan-
+peraturannya.
+</p>
+<hr>
+<!-- pembatas -->		
+	<div class="arab4">
+والإسلامُ قَد عمَد إِلى هذه العقدةِ الكبرى فَحَلَّها للإنـسانِ حـلًا
+يوافِقُ الفِطرةَ، ويَمْلأُ العقلَ قَناعةً، والقلبَ طُمأنينةً، وجعَلَ الـدخولَ فِيـه 
+متوقِّفا على الإقرارِ بِهَذا الحلِّ إقرارًا صادرًت عنِ العقلِ، ولذلك كان الإسلامُ
+مبنيًا على أساسٍ واحدٍ هو العقيدةُ. وهي أنَّ وراءَ هذا الكـونِ والإنـسانِ
+والحياةِ خالقًا خلقَها جميعًا، وخلقَ كلَّ شيء، وهو اللهُ تعـالى. وأَنَّ هـذا
+الخالقَ أَوْجَدَ الأشياءَ مِن العدمِ، وهو وَاجِبُ الوجود،ِ فهو غيرُ مخلوقٍ، وإلا
+لما كان خالقًا، واتصافُهُ بكونِهِ خالقًا يَقْضِي بكونِهِ غيرَ مخلوقٍ، ويَقْضِي بأنَّهُ 
+واجبُ الوجـودِ، لأنَّ الأشـياءَ جميعَهَا تستَنِدُ في وجــودِها إِلَيْـهِ ولا
+يسـتندُ هو إلى شيء
+</div>
+<p>
+Islam telah menuntaskan problematika pokok ini dan dipecahkan untuk manusia dengan cara yang sesuai dengan fitrahnya, memuaskan akal, serta memberikan ketenangan jiwa. Ditetapkannya pula bahwa untuk memeluk agama Islam, tergantung sepenuhnya kepada pengakuan terhadap pemecahan ini, yaitu pengakuan yang betul-betul muncul dari akal. Karena itu, Islam dibangun di atas satu dasar, yaitu akidah. Akidah menjelaskan bahwa di balik alam semesta, manusia, dan hidup, terdapat Pencipta (Al-Khaliq) yang telah meciptakan ketiganya, serta yang telah meciptakan segala sesuatu lainnya. Dialah Allah SWT. Bahwasanya Pencipta telah menciptakan segala sesuatu dari tidak ada menjadi ada. Ia bersifat wajibul wujud, wajib adanya. Sebab, kalau tidak demikian, berarti Ia tidak mampu menjadi Khaliq. Ia bukanlah makhluk, karena sifat-Nya sebagai Pencipta memastikan bahwa diri-Nya bukan makhluk. Pasti pula bahwa Ia mutlak adanya, karena segala sesuatu menyandarkan wujud atau eksistensinya kepada diri-Nya; sementara Ia tidak bersandar kepada apapun.
+</p>
+<hr>
+<!-- pembatas -->		
+	<div class="arab4">
+مَّا أنَّهُ لا بدَّ للأشياءِ مِن خالقٍ يخلُقُها فـذلك أنَّ الأشـياءَ الـتي
+يُدرِكُها العقلُ هي الإنسانُ والحياةُ والكونُ، وهذه الأشياءُ محدودةٌ، فهـي عاجزةٌ وناقصةٌ ومحتاجةٌ إلى غيرِهَا. فالإنسانُ محدودٌ لأنَّهُ ينمُو في كلِّ شيءٍ
+إلى حَدٍ لا يتجاوَزُه، فهو محدود. والحياةُ محدودةٌ، لأنَّ مظهَرها فرديٌ فَقَطْ،
+والمُشاهَدُ بالحِسِّ أنَّها تَنْتَهِي في الفردِ فهي محدودةٌ. والكونُ محـدودٌ لأنـه
+مجموعُ أَجرامٍ وكلُّ جِرْمٍ مِنها محدودٌ، ومجموعُ المحدوداتِ محـدودٌ بداهـةً،
+فالكونُ محدود. وعلى ذلك فالإنسانُ والحياةُ والكوْنُ محدودةٌ قطعًا.
+</div>
+<p>
+Bukti bahwa segala sesuatu mengharuskan adanya Pencipta yang menciptakannya, dapat diterangkan sebagai berikut: bahwa segala sesuatu yang dapat dijangkau oleh akal terbagi dalam tiga unsur, yaitu manusia, alam semesta, dan hidup. Ketiga unsur ini bersifat terbatas, lemah, serba kurang, dan saling membutuhkan kepada yang lain. Misalnya manusia. Manusia terbatas sifatnya, karena ia tumbuh dan berkembang sampai pada batas tertentu yang tidak dapat dilampuinya lagi. Ini menunjukkan bahwa manusia bersifat terbatas. Begitu pula halnya dengan hidup, bersifat terbatas, karena penampakannya bersifat individual. Apa yang kita saksikan selalu menunjukkan bahwa hidup ini berakhir pada satu individu saja. Jadi, hidup juga bersifat terbatas. Sama halnya dengan alam semesta yang memiliki sifat terbatas. Alam semesta merupakan himpunan dari benda-benda angkasa, yang setiap bendanya memiliki keterbatasan. Himpunan segala sesuatu yang terbatas, tentu terbatas pula sifatnya. Jadi, alam semesta pun bersifat terbatas. Walhasil, manusia, hidup, dan alam semesta, ketiganya bersifat terbatas.
+</p>
+<hr>
+<!-- pembatas -->		
+	<div class="arab4">
+
+وحينَ ننظُرُ إلى المحدودِ نَجدُهُ ليسَ أَزَلِيًا وإلا لمَا كان محدودًا فلا بـدَّ
+مِنْ أنْ يكونَ المحدودُ مخلوقًا لغيرِه،ِ وهذا الغيرُ هو خالقُ الإنـسانِ والحيـاةِ
+والكون،ِ وهو إِمَّا أَنْ يكونَ مخلوقًا لغيرِه،ِ أَوْ خالقًا لنفسِه،ِ أو أزليًا واجـبَ الوجـود. أمَّا أنَّـهُ مخـلوقٌ لغيرِهِ فباطـلٌ، لأنَّـهُ يكـونُ محــدودًا،
+وأمّـا أنَّـهُ خالقٌ لنفسِهِ فباطلٌ أيضًا، لأنه يكونُ مخلوقًا لنفـسِهِ وخالقـًا لنفسِهِ في آنٍ واحدٍ، وهذا باطـلٌ أيضًا، فلا بُـدَّ أَنْ يكونَ الخالقُ أزليًـا
+واجبَ الوجودِ وهو اللهُ تعالى
+</div>
+<p>
+Apabila kita melihat kepada segala sesuatu yang bersifat terbatas, akan kita simpulkan bahwa semuanya tidak azali. Jika bersifat azali (tidak berawal dan tidak berakhir), tentu tidak mempunyai keterbatasan. Dengan demikian segala yang terbatas pasti diciptakan oleh ‘’sesuatu yang lain’’. ‘’Sesuatu yang lain’’ inilah yang disebut Al-Khaliq. Dialah yang menciptakan manusia, hidup, dan alam semesta. Dalam
+menentukan keberadaan Pencipta ini akan kita dapati tiga kemungkinan. Pertama, Ia diciptakan oleh yang lain. Kedua, Ia menciptakan diri-Nya sendiri. Ketiga, Ia bersifat azali dan wajibul wujud. Kemungkinan pertama bahwa Ia diciptakan oleh yang lain adalah kemungkinan yang bathil, tidak dapat diterima oleh akal. Sebab, bila benar demikian, tentu Ia bersifat terbatas. Begitu pula dengan kemungkinan kedua, yang menyatakan bahwa Ia menciptakan diri-Nya sendiri. Jika demikian berarti Dia sebagai makhluk dan Khaliq pada saat yang bersamaan. Hal yang jelas-jelas tidak dapat diterima. Karena itu, Al-Khaliq harus bersifat azali dan wajibul wujud. Dialah Allah SWT.
+</p>
+<hr>
+<!-- pembatas -->		
+	<div class="arab4">
+على أنَّ كلَّ مَنْ كان لَهُ عقلٌ، يُدرِكُ من مجرَّدِ وجودِ الأشياءِ التي
+يقَعُ عليْها حِسُّه،ُ أَنَّ لهَا خالقًا خَلَقَهَا، لأَنَّ المشاهَدَ فيها جميعِهَا أَنَّها ناقصةٌ،
+وعاجزةٌ ومحتاجةٌ لغيرِهَا، فهي مخلوقةٌ قطعًا. ولذلك يكفِي أنْ يُلْفَتَ النَظَرُ
+إِلى أَيِّ شيءٍ في الكونِ والحياةِ والإنسانِ لِيُسْتَدَلَّ بِهِ على وجودِ الخالقِ
+المدبِّرِ. فالنَظَرُ إلى أَيِّ كَوْكَبٍ مِنَ الكواكبِ في الكون،ِ والتأَمُّلُ في أَيِّ
+مَظْهَرٍ مِنْ مَظاهِرِ الحياة،ِ وإِدراكُ أَيِّ ناحيةٍ في الإنسان،ِ لَيَدُلُّ دِلالةً قطعيةً
+على وجودِ اللهِ تعالى. ولذلكَ نَجِدُ القرآنَ الكريمَ يَلْفِتُ النَظَرَ إلى الأشياء،ِ
+ويدعُو الإنسانَ لأَنْ ينظُرَ إِليها وإلى ما حَوْلَهَا وما يتعلَّقُ بِهَا، ويَسْتَدِلُّ بذلك
+على وجودِ اللهِ تعالى. إِذْ ينظرُ إِلى الأشياءِ كَيْفَ أَنَّهَا محتاجةٌ إلى غيرِها،
+فَيُدْرِكُ مِنْ ذلك وجودَ اللهِ الخالقِ المدبِّرِ إِدراكًا قطعيًا. وَقَدْ وَرَدَتْ مِئَاتُ الآياتِ في هذا المعنى. قال تعالى في سورةِ آلِ عمرانَ: اِنَّ فِيْ خَلْقِ السَّمٰوٰتِ وَا لْاَ رْضِ وَا خْتِلَا فِ الَّيْلِ وَا لنَّهَا رِ لَاٰ يٰتٍ لِّاُولِى الْاَ لْبَا بِ
+وقالَ تعالى في سورةِ الرومِ: وَمِنْ اٰيٰتِهٖ خَلْقُ السَّمٰوٰتِ وَالْاَرْضِ وَا خْتِلَا فُ اَلْسِنَتِكُمْ وَاَلْوَانِكُمْ ۗ اِنَّ فِيْ ذٰلِكَ لَاٰيٰتٍ لِّلْعٰلِمِيْنَ وقالَ تعالى في سورةِ الغاشِية:ِ اَفَلَا يَنْظُرُوْنَ اِلَى الْاِبِلِ كَيْفَ خُلِقَتْ
+وَاِلَى السَّمَآءِ كَيْفَ رُفِعَتْ 
+وَاِلَى الْجِبَالِ كَيْفَ نُصِبَتْ
+وَاِلَى الْاَرْضِ كَيْفَ سُطِحَتْ
+وقالَ تعالى في سـورةِ الطارق: فَلْيَنْظُرِ الْاِنْسَا نُ مِمَّ خُلِقَ،
+خُلِقَ مِنْ مَّآءٍ دَافِقٍ ،
+يَّخْرُجُ مِنْۢ بَيْنِ الصُّلْبِ وَالتَّرَآئِبِ وَقالَ تعالى في سورةِ البَقَرَة:ِ اِنَّ فِيْ خَلْقِ السَّمٰوٰتِ وَالْاَرْضِ وَاخْتِلَافِ الَّيْلِ وَالنَّهَارِ وَالْفُلْكِ الَّتِيْ تَجْرِيْ فِى الْبَحْرِ بِمَا يَنْفَعُ النَّاسَ وَمَاۤ اَنْزَلَ اللّٰهُ مِنَ السَّمَآءِ مِنْ مَّآءٍ فَاَ حْيَا بِهِ الْاَرْضَ بَعْدَ مَوْتِهَا وَبَثَّ فِيْهَا مِنْ کُلِّ دَآ بَّةٍ ۖ وَّتَصْرِيْفِ الرِّيٰحِ وَالسَّحَا بِ الْمُسَخَّرِ بَيْنَ السَّمَآءِ وَالْاَرْضِ لَاٰيٰتٍ لِّقَوْمٍ يَّعْقِلُوْنَ
+إلى غيرِ ذلك مِنَ الآياتِ التي تدعُو الإنسانَ
+لأَنْ ينظُرَ النَظْرَةَ العميقةَ إلى الأشياءِ وما حولهَا وما يتعلقُ بِهَا، ويَستدِلَّ
+بذلك على وجودِ الخالقِ المدبِّرِ، حتَّى يكونَ إيمانُهُ بااللهِ إيمانًا راسخًا عَنْ عَقْلٍ
+وَبَيِّنَة
+</div>
+<p>
+Karena itu, dalam Al-Quran terdapat ajakan untuk mengalihkan perhatian manusia terhadap benda-benda yang ada, seraya mengajaknya turut mengamati dan memfokuskan perhatian terhadap benda-benda tersebut dan segala sesuatu yang ada di sekelilingnya, atau yang berhubungan dengannya, agar dapat membuktikan adanya Allah SWT. Dengan mengamati benda-benda tersebut, bagaimana satu dengan yang lain saling membutuhkan, akan memberikan suatu pemahaman yang meyakinkan dan pasti, akan adanya Allah Yang Maha Pencipta lagi Maha Pengatur. Al-Quran telah membeberkan ratusan ayat berkenaan dengan hal ini, antara lain firman-firman Allah SWT:
+"Sesungguhnya dalam penciptaan langit dan bumi, dan pergantian malam dan siang terdapat tanda-tanda (kebesaran Allah) bagi orang yang berakal," (QS. Ali 'Imran 3: Ayat 190)
+"Dan di antara tanda-tanda (kebesaran)-Nya ialah penciptaan langit dan bumi, perbedaan bahasamu, dan warna kulitmu. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda bagi orang-orang yang mengetahui." (QS. Ar-Rum 30: Ayat 22)
+"Maka tidaklah mereka memerhatikan unta, bagaimana diciptakan?" "Dan langit, bagaimana ditinggikan? "Dan gunung-gunung bagaimana ditegakkan? "Dan bumi bagaimana dihamparkan?" (QS. Al-Ghasyiyah 88: Ayat 17-20)
+"Maka hendaklah manusia memperhatikan dari apa dia diciptakan." "Dia (manusia) diciptakan dari air (mani) yang terpancar," "yang keluar dari antara tulang punggung (sulbi) dan tulang dada." "yang keluar dari antara tulang punggung (sulbi) dan tulang dada." (QS. At-Tariq 86: Ayat 5-7)
+"Sesungguhnya pada penciptaan langit dan bumi, pergantian malam dan siang, kapal yang berlayar di laut dengan (muatan) yang bermanfaat bagi manusia, apa yang diturunkan Allah dari langit berupa air, lalu dengan itu dihidupkan-Nya bumi setelah mati (kering), dan Dia tebarkan di dalamnya bermacam-macam binatang, dan perkisaran angin dan awan yang dikendalikan antara langit dan bumi, (semua itu) sungguh, merupakan tanda-tanda (kebesaran Allah) bagi orang-orang yang mengerti." (QS. Al-Baqarah 2: Ayat 164)
+Banyak lagi ayat serupa lainnya, yang mengajak manusia untuk memperhatikan benda-benda alam dengan seksama, dan melihat apa yang ada di sekelilingnya maupun yang berhubungan dengan keberadaan dirinya. Ajakan itu untuk dijadikan petunjuk akan adanya Pencipta yang Maha Pengatur, sehingga imannya kepada Allah SWT menjadi iman yang mantap, yang berakar pada akal dan bukti yang nyata.
+</p>
+<hr>
+<!-- pembatas -->		
+	<div class="arab4">
+
+نَعَم؛ إِنَّ الإيمانَ بالخالقِ المدبِّرِ فِطْرِيٌ في كلِّ إنـسان.ٍ إِلا أَنَّ هـذا الإيمانَ الفطريَّ يأتِي عن طريقِ الوِجْدَان.ِ وهو طريقٌ غيرُ مَـأْمُونِ العاقِبَـةِ وغيرُ مُوصِلٍ إِلى تركيزٍ إذا تُرِكَ وَحْدَهُ. فالْوِجدانُ كثيرًا ما يُضْفِي على مـا
+يُؤْمِنُ بِهِ أَشْيَاءَ لا حقائقَ لهَا، ولكنَّ الوِجدانَ تخَيَّلَهَا صِفاتٍ لازمةً لِمَا آمَـنَ
+بِه، فَوَقَعَ في الكُفرِ أو الضَّلالِ. وما عبادةُ الأوثان،ِ وما الخُرافاتُ والتُرَّهَاتُ
+إلا نَتيجَةً لخطأِ الوِجدان.ِ ولهذا لم يَتْرُكِ الإسلامُ الوجدانَ وحـدَهُ طريقـةً للإيمان، حتى لا يجعلَ اللهِ صفاتٍ تَتَنَاقَضُ مَعَ الأُلُوهِيَّـة، أو يجعلَـهُ مُمْكِـنَ التَجَسُّدِ في أشياءَ مادِّيَّةٍ، أو يَتَصَوَّرَ إِمكانَ التَقَرُّبِ إلَيْهِ بعِبادةِ أَشياءَ مادِّيَّـة، 
+فيُؤَدِّيَ إمَّا إلى الكفرِ أو الإشراك، وإمَّا إلى الأوْهَامِ والخُرافَاتِ الَّـتي يَأْبَاهـا
+الإيمانُ الصادق.ُ ولذلكَ حَتَّمَ الإسلامُ استعمالَ العَقْلِ مَعَ الوِجدانِ، وأَوْجَبَ
+على المُسلمِ استعمالَ عقلِهِ حينَ يُؤْمنُ بِااللهِ تعالى، ونَهـى عَـنِ التقليـدِ في 
+العقيدةِ ولذلكَ جَعَلَ العقلَ حكمًا في الإيمانِ بااللهِ تعالى. قالَ تعالى: (إِنَّ فِيْ خَلْقِ السَّمٰوٰتِ وَالْاَرْضِ وَاخْتِلَافِ الَّيْلِ وَالنَّهَارِ لَاٰيٰتٍ لِّاُولِى الْاَلْبَا بِ) 
+ولهذا كانَ واجبًا عَلى كلِّ مسلمٍ أَنْ يَجْعَلَ إيمانَهُ صادرًا عَنِ تَفْكيرٍ وبَحْثٍ ونَظَرٍ، 
+وأَنْ يُحَكِّمَ العَقلَ تحكيمًا مُطلقًا في الإيمانِ بااللهِ تعالى. والدعوةُ إلى النَظَرِ في الكونِ لاستنباطِ سُنَنِهِ وللاهتداءِ إلى الإيمانِ بِبَارِئِه،ِ يُكَرِّرُهَا القُـرآنُ مِئَـاتِ المرَّاتِ في سُوَرِهِ المُخْتَلِفَة،ِ وكُلُّهَا مُوَجَّهَةٌ إلى قُوَى الإِنسانِ العاقِلَةِ تَدعُوهُ إلى التَدَبُّرِ والتَأَمُّلِ لِيَكونَ إيمانُهُ عَنْ عقلٍ وبَيِّنَةٍ وتُحَذِّرُهُ الأَخْذَ بما وَجَدَ عَلَيْهِ آبَاءَهُ
+مِنْ غيرِ نَظَرٍ فيه وتَمْحِيصٍ لَهُ وثِقَةٍ ذَاتِيَّةٍ بِمَبْلَغِهِ مِنَ الحقِّ . هذا هوَ الإيمـانُ الذي دَعَا الإِسلامُ إِلَيْه،ِ وهوَ لَيْسَ هذا الإيمانَ الَّذي يُسَمُّونَهُ إيمانَ العَجَـائِزِ،
+إنَّمَا هوَ إيمانُ المُسْتَنِيرِ المُسْتَيْقِنِ الَّذي نَظَرَ ونَظر،َ ثُمَّ فَكَّرَ وفَكَّر،َ ثُمَّ وَصَلَ مِنْ 
+طَريقِ النَظرِ والتَفْكِيرِ إلى اليَقِينِ بِااللهِ جَلَّتْ قُدْرَتُه
+</div>
+<p>
+Memang benar, iman kepada adanya Pencipta Yang Maha Pengatur merupakan hal yang fitri pada setiap manusia. Hanya saja, iman yang fitri ini muncul dari perasaan yang berasal dari hati nurani belaka. Cara seperti ini bila dibiarkan begitu saja, tanpa dikaitkan dengan akal, sangatlah riskan akibatnya serta tidak dapat dipertahankan lama. Dalam kenyataannya, perasaan tersebut sering menambah-nambah apa yang diimani, dengan sesuatu yang tidak ada hakikatnya. Bahkan ada yang mengkhayalkannya dengan sifat-sifat tertentu yang dianggap lumrah terhadap apa yang diimaninya. Tanpa sadar, cara tersebut justru menjerumuskannya ke arah kekufuran dan kesesatan. Penyembahan berhala, khurafat (cerita bohong) dan ajaran kebathinan, tidak lain merupakan akibat kesalahan perasaan hati ini. Islam tidak membiarkan perasaan hati sebagai satu-satunya jalan menuju iman. Hal ini dimaksudkan agar seseorang tidak menambah sifat-sifat Allah SWT dengan sifat yang bertentangan dengan sifat-sifat ketuhanan; atau memberinya kesempatan untuk mengkhayalkan penjelmaan-Nya dalam bentuk materi; atau beranggapan bahwa untuk mendekatkan diri kepada-Nya dapat ditempuh melalui penyembahan benda-benda, sehingga menjurus ke arah kekufuran, syirik, khurafat, dan imajinasi keliru yang senantiasa ditolak oleh iman yang lurus. Karena itu, Islam menegaskan agar senantiasa menggunakan akal disamping adanya perasaan hati. Islam mewajibkan setiap umatnya untuk menggunakan akal dalam beriman kepada Allah SWT, serta melarang bertaqlid dalam masalah akidah. Untuk itulah, Islam telah menjadikan akal sebagai timbangan dalam beriman kepada Allah, sebagaimana yang firman Allah SWT:
+“Sesungguhnya dalam penciptaan langit dan bumi, dan silih bergantinya malam dan siang, terdapat tanda-tanda bagi orang-orang yang berakal” (TQS. Ali ‘Imran [3]: 190).
+Dengan demikian setiap Muslim wajib menjadikan imannya betul-betul muncul dari proses berfikir, selalu meneliti dan memperhatikan serta senantiasa bertahkim (merujuk) kepada akalnya secara mutlak dalam beriman kepada (adanya) Allah SWT. Ajakan untuk memperhatikan alam semesta dengan seksama, dalam rangka mencari sunatullah serta untuk memperoleh petunjuk agar beriman terhadap Penciptanya, telah disebut ratusan kali oleh Al-Quran dalam berbagai surat yang berbeda. Semuanya ditujukan kepada potensi akal manusia untuk diajak berfikir dan merenung, sehingga imannya betul- betul muncul dari akal dan bukti yang nyata. Disamping untuk memperingatkannya agar tidak mengambil jalan yang telah ditempuh oleh nenek moyangnya, tanpa meneliti dan menguji kembali sejauh mana kebenarannya. Inilah iman yang diserukan oleh Islam. Iman semacam ini bukanlah seperti yang dikatakan orang sebagai imannya orang-orang lemah, melainkan iman yang berpijak pada pemikiran yang cemerlang dan meyakinkan, yang senantiasa mengamati (alam sekitarnya), berpikir dan berpikir. Melalui pengamatan dan perenungannya akan sampai kepada keyakinan tentang adanya Allah Yang Maha Kuasa.
+</p>
+
+<hr>
+<!-- pembatas -->		
+	<div class="arab4">
+ورُغْمَ وُجوبِ استعمالِ الإنسان العَقْلَ في الوُصولِ إلى الإيمانِ بااللهِ
+تعالى فإنَّهُ لا يُمْكِنُهُ إِدْراك ما هوَ فَوْقَ حِسِّهِ وفوقَ عقلِه،ِ وذلكَ لأَنَّ العقـلَ الإِنسانيَّ محدود،ٌ ومحدودةٌ قُوَّتُهُ مَهْمَا سَمَتْ ونَمَتْ بِحُـدُودٍ لا تَتَعَـدَّاهَا، 
+ولِذلكَ كانَ محدودَ الإدْرَاك،ِ ومنْ هنا كانَ لا بُدَّ مِنْ أَنْ يَقْصُرَ العقـلُ دونَ إدراكِ ذاتِ الله، وأَنْ يَعْجَـزَ عـنْ إدراكِ حَقِيقَتِـه،ِ لأَنَّ اللهَ وراءَ الكـونِ والإنسانِ والحياة، والعقلُ في الإنسانِ لا يدركُ حقيقـةَ مـا وراءَ الكـونِ والإنسانِ والحياة، ولذلكَ كانَ عاجِزًا عَنْ إدراكِ ذاتِ اللهِ. ولا يقالُ هُنَـا: كيفَ آمَنَ الإنسانُ بااللهِ عقلًا معْ أَنَّ عقلَهُ عاجِزٌ عـنْ إدراكِ ذاتِ اللهِ؟ لأنَّ 
+الإيمانَ إنَّمَا هوَ إيمانٌ بِوجودِ اللهِ وَوُجودُهُ مُدْرَكٌ منْ وجودِ مخلوقاتِه،ِ وهـيَ الكونُ والإنسانُ والحياةُ. وهذهِ المخلوقاتُ داخلةٌ في حـدودِ مـا يُدْرِكُـهُ
+العقلُ، فأَدْرَكَهَا، وأدركَ منْ إدراكِهِ إياهَا وجودَ خالقٍ لَهَا، وهوَ اللهُ تعالى. 
+ولذلكَ كانَ الإيمانُ بِوجودِ اللهِ عقليًا وفي حدودِ العقلِ، بِخِلافِ إدراكِ ذاتِ اللهِ فَإِنَّهُ مُسْتَحِيلٌ، لأنَّ ذاتَهُ وراءَ الكونِ والإنسانِ والحياة، فهوَ وراءَ العقلِ. 
+والعقلُ لا يمكنُ أنْ يدركَ حقيقةَ ما وراءَهُ لِقُصورِهِ عنْ هذا الإدراك. وهـذا القصورُ نفسُهُ يجبُ أنْ يكونَ منْ مُقوياتِ الإيمان، ولـيسَ مـنْ عوامـلِ 
+الارتيابِ والشكِّ. فإنِّهُ لمَّا كانَ إيمانُنَا بااللهِ آتِياً عنْ طريقِ العقلِ كانَ إدراكُنَا 
+لِوُجودِهِ إِدْراكاً تامًّا ولمَّا كانَ شعورُنا بِوجودِهِ تعالى مَقْرُوناً بالعقلِ كـان شُعُورُنَا بوجودِهِ شُعوراً يَقينيًا، وهذا كُلُّهُ يجعلُ عِنْدَنَا إِدراكًا تامًّا وَشُـعورًا
+يقينِيًا بجَميعِ صفاتِ الأُلوهيَّة. وَهذا منْ شَأْنِهِ أَنْ يُقْنِعَنَا أَنَّنا لنْ نَستَطيعَ إدراكَ
+حقيقةِ ذاتِ اللهِ على شِدَّةِ إيمانِنَا بِه، وأنَّنَا يجبُ أنْ نُسَلِّمَ بِما أخبرنَا بِهِ مِمَّـا 
+قَصَّرَ العقلُ عنْ إدراكِهِ أو الوصولِ إلى إدراكِه، وذلكَ لِلْعَجْزِ الطَبِيعِيِّ عـنْ 
+أنْ يَصِلَ العقلُ الإنْسَانِيُّ بمَقَاييسِهِ النِسْبِيَّةِ المحدودةِ إلى إدراكِ مـا فوقَـه. إذْ يحتاجُ هذا الإدراكُ إلى مقاييسَ ليسَتْ نِسْبِيَّةً وليستْ محدودةً، وهي ممَّـا لا يملكُهُ الإنسانُ ولا يستطيعُ أنْ يملِكَه
+</div>
+<p>
+Kendati wajib atas manusia menggunakan akalnya dalam mencapai iman kepada Allah SWT, namun tidak mungkin ia menjangkau apa yang ada di luar batas kemampuan indera dan akalnya. Sebab akal manusia terbatas. Terbatas pula kekuatannya sekalipun meningkat dan bertambah sampai batas yang tidak dapat dilampauinya; terbatas pula jangkauannya. Melihat kenyataan ini, maka perlu diingat bahwa akal tidak mampu memahami Zat Allah dan hakekat-Nya. Sebab, Allah SWT berada di luar ketiga unsur pokok (alam semesta, manusia, dan hidup) tadi. Sedangkan akal manusia tidak mampu memahami apa yang ada di luar jangkauannya. Ia tidak akan mampu memahami Zat Allah. Tetapi bukan berarti dapat dikatakan “Bagaimana mungkin orang dapat beriman kepada Allah SWT, sedang akalnya sendiri tidak mampu memahami Zat Allah?” Tentu, kita tidak mengatakan demikian, karena pada hakekatnya iman itu adalah percaya terhadap wujud Allah SWT. Sedangkan wujud-Nya dapat diketahui melalui makhluk-
+makhluk-Nya, yaitu alam semesta, manusia, dan hidup. Tiga unsur ini berada dalam batas jangkauan akal manusia. Dengan memahami ketiga hal ini, orang dapat memahami adanya Pencipta, yaitu Allah SWT. Karena itu, iman terhadap adanya Allah dapat dicapai melalui akal, dan berada dalam jangkauan akal. Usaha manusia untuk memahami hakekat Zat Allah SWT merupakan perkara yang mustahil untuk dicapai. Sebab, Zat Allah berada di luar unsur alam semesta, manusia, dan hidup. Dengan kata lain berada di luar jangkauan kemampuan akal. Akal tidak mungkin memahami hakekat yang ada di luar batas kemampuannya, karena perannya amat terbatas. Seharusnya keterbatasannya itu justru menjadi faktor penguat iman, bukan sebaliknya malah menjadi penyebab keragu-raguan dan kebimbangan, Apabila iman kita kepada Allah SWT telah dicapai melalui proses berfikir, maka kesadaran kita terhadap adanya Allah menjadi sempurna. Begitu pula jika perasaan hati kita (yang timbul dari wijdan, pent.) mengisyaratkan adanya Allah, lalu dikaitkan dengan akal, tentu perasaan tersebut akan mencapai suatu tingkat yang meyakinkan. Bahkan hal itu akan memberikan suatu pemahaman yang sempurna serta perasaan yang meyakinkan terhadap sifat-sifat ketuhanan. Dengan sendirinya, cara tersebut akan meyakinkan kita bahwa manusia tidak sanggup memahami hakekat Zat Allah. Sebaliknya hal ini justru akan memperkuat iman kita kepada-Nya. Disamping keyakinan seperti ini, kita wajib berserah diri terhadap semua yang dikhabarkan Allah SWT tentang hal-hal yang yang tidak sanggup dicerna atau yang tidak dapat dicapai oleh akal. Ini disebabkan lemahnya akal manusia yang memiliki ukuran ukuran nisbi yang serba terbatas kemampuannya, untuk memahami apa yang ada di luar jangkauan akalnya. Padahal untuk memahami hal semacam ini, diperlukan ukuran-ukuran yang tidak nisbi dan tidak terbatas, yang justru tidak dimiliki dan tidak akan pernah dimiliki manusia.
+</p>
+
+<hr>
+<!-- pembatas -->		
+	<div class="arab4">
+وأمَّا ثبوتُ الحاجةِ إلى الرسُلِ، فهوَ أنَّهُ ثَبَتَ أنَّ الإنسانَ مخلـوقٌ اللهِ 
+تعالى، وأنَّ التديُّنَ فِطريٌّ في الإنسان، لأنَّهُ غريزةٌ منْ غرائزِه،ِ فهوَ في فطرتِهِ
+يُقَدِّسُ خالِقَه، وَهذا التقديسُ هوَ العبادةُ، وهيَ العلاقةُ بينَ الإنسانِ والخالقِ 
+وهذهِ العلاقةُ إِذا تُرِكَتْ دونَ نظامٍ يُؤَدِّي تَرْكُهَا إلى اضطرابِها وإلى عبـادةِ
+غيرِ الخالقِ، فلا بُدَّ منْ تَنْظيمِ هذهِ العلاقةِ بنظامٍ صَحيحٍ، وهذا النِظامُ لا يَأْتِي مِنَ الإنسـانِ لأَنَّهُ لا يَتَأَتَّى لَهُ إدراكُ حقيقةِ الخالقِ حَتَّى يضعَ نِظامًـا بَيْنَـهُ
+وبَيْنَه، فَلا بُدَّ مِنْ أنْ يكونَ هذا النظامُ منَ الخالقِ . وبما أنَّهُ لا بُدَّ مِنْ أنْ يُبَلِّغَ
+الخـالقُ هذا النظـامَ لِلإنسـان، لذلكَ كانَ لا بُدَّ منَ الرسـلِ يُبلِّغـونَ 
+الناسَ دينَ اللهِ تعالى
+</div>
+<p>
+Adapun bukti kebutuhan manusia terhadap para Rasul, dapat kita lihat dari fakta bahwa manusia adalah makhluk Allah SWT. Dan beragama adalah sesuatu yang fitri pada diri manusia, karena termasuk salah satu naluri yang ada pada manusia. Dalam fitrahnya, manusia senantiasa mensucikan Penciptanya. Aktivitas inilah yang dinamakan ibadah, yang berfungsi sebagai tali penghubung antara manusia dengan Penciptanya. Apabila hubungan ini dibiarkan begitu saja tanpa aturan, tentu akan menimbulkan kekacauan ibadah. Bahkan dapat menyebabkan terjadinya penyembahan kepada selain Pencipta. Jadi, harus ada aturan tertentu yang mengatur hubungan ini dengan peraturan yang benar. Hanya saja, aturan ini tidak boleh dating dari manusia. Sebab, manusia tidak mampu memahami hakekat Al-Khaliq sehingga dapat meletakkan aturan antara dirinya dengan Pencipta. Maka, aturan ini harus datang dari Al-Khaliq. Karena aturan ini harus sampai ke tangan manusia, maka tidak boleh tidak harus ada para Rasul yang menyampaikan agama Allah ini kepada umat manusia.
+</p>
+
+<hr>
+<!-- pembatas -->		
+	<div class="arab4">
+والدليلُ أيضًا على حاجةِ الناسِ إلى الرسلِ هوَ أنَّ الإِنسانَ بحاجَةٍ إلى 
+إِشْباعِ غرائِزِه وحاجاتِهِ العضويَّة، وهذا الإشباعُ إذا سارَ دونَ نظامٍ يُـؤَدِّي إلى الإشْباعِ الخَطَأِ أو الشاذِّ ويُسَبِّبُ شقاءَ الإنسان،ِ فَلا بدَّ منْ نظامٍ يُـنظِّمُ غَرائِزَ الإنسانِ وَحاجاتِهِ العضوِيَّةَ، وهذا النظامُ لا يأتي مـنَ الإنـسان، لأنَّ 
+فهمَهُ لتنظيمِ غرائزِ الإنسانِ وحاجاتِهِ العضويةِ عُرْضَةٌ لِلْتَفَاوُتِ والاخـتلافِ
+والتَنَاقُضِ والتَأَثُّرِ بالبيئةِ الَّتي يعيشُ فيها، فإذا تُرِكَ ذلكَ لَهُ كانَ النظامُ عُرْضَةً 
+لِلْتَفَاوُتِ والاختلافِ والتَنَاقُضِ وأدى إلى شَقَاءِ الإنسان،ِ فلا بُـدَّ مِـنْ أنْ يكونَ النظامُ منَ اللهِ تعالى.
+</div>
+<p>
+
+Bukti lain kebutuhan manusia terhadap para Rasul adalah bahwa pemuasan manusia terhadap tuntutan gharizah (naluri) serta kebutuhan-kebutuhan jasmani, adalah keharusan yang sangat diperlukan. Pemuasan semacam ini jika dibiarkan berjalan tanpa aturan akan menjurus ke arah pemuasan yang salah dan menyimpang, yang pada
+gilirannya akan menyebabkan kesengsaraan umat manusia. Dengan demikian, harus ada aturan yang mengatur setiap naluri dan kebutuhan jasmani ini. Hanya saja, aturan ini tidak boleh datang dari pihak manusia. Sebab, pemahaman manusia dalam mengatur naluri dan kebutuhan jasmani selalu berpeluang terjadi perbedaan, perselisihan, pertentangan, dan terpengaruh lingkungan tempat tinggalnya. Apabila manusia dibiarkan membuat aturan sendiri, tentu aturan tersebut akan memungkinkan terjadinya perbedaan, perselisihan, dan pertentangan, yang justru akan menjerumuskannya ke dalam kesengsaraan. Maka aturan tersebut harus datang dari Allah SWT melalui para Rasul.
+</p>
+
+<hr>
+<!-- pembatas -->		
+	<div class="arab4">
+وأمَّا ثبوتُ كونِ القرآنِ منْ عِنْدِ الله، فَهُوَ أنَّ القرآنَ كتابٌ عَرَبِـيٌّ
+جاءَ بِهِ محمَّدٌ عليهِ الصلاةُ والسلامُ. فهوَ إمَّا أنْ يكونَ منَ العَرَبِ وإمَّـا أنْ 
+يكونَ منْ محمَّدٍ، وإمَّا أنْ يكونَ منَ اللهِ تعالى . ولا يمكنُ أنْ يكونَ منْ غيِـر
+واحدٍ منْ هَؤلاءِ الثلاثَة، لأنَّه عربيُّ اللُّغةِ والأسلوبِ.
+</div>
+<p>
+Mengenai bukti bahwa Al-Quran itu datang dari Allah, dapat dilihat dari kenyataan bahwa Al-Quran adalah sebuah kitab berbahasa Arab yang dibawa oleh Rasulullah Muhammad SAW. Dalam menentukan darimana asal Al-Quran, akan kita dapatkan tiga kemungkinan. Pertama, kitab itu adalah karangan orang Arab. Kedua, karangan Muhammad SAW. Ketiga, berasal dari Allah SWT. Tidak ada lagi kemungkinan selain dari yang tiga ini. Sebab, Al-Quran adalah berciri khas Arab, baik dari segi bahasa maupun gayanya.
+</p>
+
+<hr>
+<!-- pembatas -->		
+	<div class="arab4">
+أمَّا أنَّهُ منَ العربِ فَباطلٌ لأنَّهُ تَحَدَّاهُم أنْ يَأْتوا بمثلِـهِ : (قُلْ فَأْتُوْا بِعَشْرِ سُوَرٍ مِّثْلِهٖ) (قُلْ فَأْتُوْا بِسُوْرَةٍ مِّثْلِهٖ)
+</div>
+<p>
+Kemungkinan pertama yang mengatakan bahwa Al- Quran adalah karangan orang Arab, tidak dapat diterima. Sebab, Al-Quran sendiri telah menantang mereka untuk membuat karya yang serupa. Sebagaimana tertera dalam ayat: “Katakanlah: ‘Maka datangkanlah sepuluh surat yang (dapat) menyamainya” (TQS. Hud [11]: 13).
+Di dalam ayat lain: “Katakanlah: (‘Kalau benar apa yang kamu katakan), maka cobalah datangkan sebuah surat yang menyerupainya” (TQS. Yunus [10]: 38).
+</p>
+
+<hr>
+<!-- pembatas -->		
+	<div class="arab4">
+وقدْ حاولوا أنْ يَأْتُوا بمثلِـهِ
+وعَجِزُوا عنْ ذلك.َ فهوَ إذنْ ليسَ منْ كلامِهِم،ْ لِعَجْزِهِمْ عنِ الإتْيانِ بمثلِهِ معَ
+تحدِّيهِ لَهُمْ ومُحَاوَلَتِهِمُ الإتيانَ بمثلِه.ِ وأمَّا أَنَّهُ منْ محمَّدٍ فباطـلٌ، لأنَّ محمَّـداً
+عربيٌ منَ العربِ، ومَهْمَا سَمَا العبقرِيُّ فهوَ مِنَ البَشَرِ وواحدٌ مِنْ مُجْتَمَعِـهِ
+وأُمَّتِه، ومَا دامَ العربُ لمْ يَأْتُوا بمثلِهِ فَيَصْدُقَ على محمَّدٍ العربيِّ أنَّهُ لا يأتي بمثلِهِ فهوَ ليسَ مِنْه، عِلاوةً على أنَّ لمحمدٍ عليه الصلاةُ والسلامُ أحاديثَ صحيحةً
+وأُخْرى رُوِيَتْ عنْ طَريقِ التواتُرِ الذي يستحيلُ مَعَهُ إ لا الصِدْق، وإذا قورِنَ
+أيُّ حديثٍ بأيـّةِ آيةٍ لا يوجدُ بَيْنَهُمَا تَشَابُهٌ في الأسلوبِ، وكانَ يَتْلُو الآيةَ
+المنزَّلَةَ ويقولُ الحديثَ في وقتٍ واحدٍ، وبينَهُمـا اخـتلافٌ في الأسـلوبِ،
+وكلامُ الرجلِ مهما حاولَ أنْ يُنَوِّعَهُ فإِنَّهُ يتشابَهُ في الأسلوبِ ، لأنَّهُ صَـادِرٌ
+منه. وبما أنَّهُ لا يوجدُ أيُّ تشابُهٍ بينَ الحديثِ والآيةِ في الأسلوبِ فلا يكـونُ
+القرآنُ كلامَ محمَّدٍ مُطْلَقًا، للاختلافِ الواضحِ الصريحِ بَيْنَهُ وبينَ كلامِ محمَّد. 
+على أَنَّ العربَ قد ادعوْا أن محمدًا يأتي بالقرآن منْ غُلامٍ نَصْرَانِيٍ اسمُهُ (جَبْر) 
+فرَدَّ اللهُ تعالى عَليهِمْ بقـولـه: (وَلَـقَدْ نَـعْلَمُ اَنَّهُمْ يَقُوْلُوْنَ اِنَّمَا يُعَلِّمُهٗ بَشَرٌ ۗ لِسَا نُ الَّذِيْ يُلْحِدُوْنَ اِلَيْهِ اَعْجَمِيٌّ وَّهٰذَا لِسَا نٌ عَرَبِيٌّ مُّبِيْنٌ)
+</div>
+<p>
+Orang-orang Arab telah berusaha keras mencobanya, akan tetapi tidak berhasil. Hal ini membuktikan bahwa Al-Quran bukan berasal dari perkataan mereka. Mereka tidak mampu menghasilkan karya yang serupa, kendati ada tantangan dari Al-Quran dan mereka telah berusaha menjawab tantangan itu. Kemungkinan kedua yang mengatakan bahwa Al-Quran itu karangan Muhammad SAW, juga tidak dapat diterima oleh akal. Sebab, Muhammad SAW adalah orang Arab juga. Bagaimanapun jeniusnya, tetap ia sebagai seorang manusia yang menjadi salah satu anggota dari masyarakat atau bangsanya. Selama seluruh bangsa Arab tidak mampu menghasilkan karya yang serupa, maka masuk akal pula apabila Muhammad —yang juga termasuk salah seorang dari bangsa arab— tidak mampu menghasilkan karya yang serupa. Karena itu, jelas bahwa Al-Quran itu bukan karangannya. Terlebih lagi dengan adanya banyak hadits-hadits shahih yang berasal dari Nabi Muhammad SAW -yang sebagian malah diriwayatkan lewat cara yang tawatur- yang kebenarannya tidak diragukan lagi. Apabila setiap hadits ini dibandingkan dengan ayat manapun dalam Al-Quran, maka tidak akan dijumpai adanya kemiripan dari segi gaya bahasanya. Padahal Nabi Muhammad SAW, disamping selalu membacakan setiap ayat-ayat yang diterimanya, dalam waktu yang bersamaan juga mengeluarkan hadits. Namun, ternyata keduanya tetap berbeda dari segi gaya bahasanya. Bagaimanapun kerasnya usaha seseorang untuk menciptakan berbagai macam gaya bahasa dalam pembicaraannya, tetap saja akan terdapat kemiripan antara gaya yang satu dengan yang lain, karena merupakan bagian dari ciri khasnya dalam berbicara. Karena tidak ada kemiripan antara gaya bahasa Al-Quran dengan gaya bahasa hadits, berarti Al-Quran itu bukan perkataan Nabi Muhammad SAW. Masing-masing dari keduanya terdapat perbedaan yang tegas dan jelas. Itulah sebabnya tidak seorang pun dari bangsa Arab —orang-orang yang paling tahu gaya dan sastra bahasa arab— pernah menuduh bahwa Al-Quran itu perkataan Muhammad SAW, atau mirip dengan gaya bicaranya. Satu-satunya tuduhan yang mereka lontarkan adalah bahwa Al-Quran itu disadur Muhammad SAW dari seorang pemuda Nasrani yang bernama Jabr. Tuduhan ini telah ditolak keras oleh Allah SWT dalam firman-Nya: "Dan sesungguhnya Kami mengetahui bahwa mereka berkata, "Sesungguhnya Al-Qur'an itu hanya diajarkan oleh seorang manusia kepadanya (Muhammad)." Bahasa orang yang mereka tuduhkan (bahwa Muhammad belajar) kepadanya adalah bahasa 'Ajam, padahal ini (Al-Qur'an) adalah dalam bahasa Arab yang jelas." (QS. An-Nahl 16: Ayat 103)
+</p>
+<hr>
+<!-- pembatas -->		
+	<div class="arab4">
+وبِمَا أنَّهُ ثبَتَ أنَّ القرآنَ ليسَ كلامَ العربِ، ولا كلامَ محمَّدٍ، فيكونَ
+كلامَ االلهِ قطعًا، ويكونَ معجزةً لمن أتَى بِه.
+وبما أَنَّ محمَّـدًا هوَ الذي أَتـى بالقــرآن، وهـوَ كـلامُ االلهِ 
+وشَـرِيعَتُه ولا يأْتي بشـريعةِ اللهِ إلاَّ الأنبياءُ والرسـلُ، فيكـونَ محمَّـدٌ 
+نَبِيـًا ورسـولًا قطعًا بالدليلِ العقليِّ. 
+هــذا دلـيـــلٌ عـقلـــيٌّ علــى الإيمـــانِ بــااللهِ
+وبـرسـالـةِ محـمَّـدٍ وبأنَّ القرآنَ كلامُ الله
+</div>
+<p>
+Apabila telah terbukti bahwa Al-Quran itu bukan karangan bangsa Arab, bukan pula karangan Muhammad SAW, berarti Al-Quran itu adalah kalamullah, yang menjadi mukjizat bagi orang yang membawanya. Dan karena Nabi Muhammad SAW adalah orang yang membawa Al-Quran —yang merupakan kalamullah dan syariat Allah, serta tidak ada yang membawa syariat-Nya melainkan para Nabi dan Rasul— maka berdasarkan dalil aqli dapat diyakini secara pasti bahwa Muhammad SAW itu adalah seorang Nabi dan Rasul. Inilah dalil aqli tentang iman kepada Allah, kerasulan Muhammad SAW, dan bahwa Al-Quran itu merupakan kalamullah.
+</p>
+
+<hr>
+<!-- pembatas -->		
+	<div class="arab4">
+وعلى ذلكَ كانَ الإيمانُ بااللهِ آتِيًا عنْ طريقِ العقلِ، ولا بُدَّ مِـنْ أنْ 
+يكونَ هذا الإيمانُ عنْ طريقِ العقلِ. فكانَ بذلكَ الرَّكيزةَ الَّتي يقـومُ عليْهَـا
+الإيمانُ بالمغيباتِ كُلِّهَا وبِكُلِّ ما أَخْبَرَنَا اللهُ به،ِ لأنَّنَا ما دُمْنَا قَدْ آمَنَّا بهِ تعالى 
+وهوَ يَتَّصِفُ بصِفاتِ الألوهيَّةِ يجبُ حتمًا أنْ نؤمنَ بكلِّ ما أخبرَ بهِ سـواءٌ 
+أدركَهُ العقلُ أو كان من وراءِ العقلِ، لأنَّهُ أ خبرَنَا بهِ اللهُ تعالى. ومِـنْ هُنـا يجبُ الإيمانُ بالبعثِ والنُشورِ والجَنَّةِ والنارِ والحِسابِ والعَذابِ، وبالملائِكَـةِ 
+والجِنِّ والشياطينِ وغيرِ ذلك، ممَّا جاءَ بالقرآنِ الكريمِ أو بحَـديثٍ قطعـيٍ . 
+وهذا الإيمانُ وإنْ كانََ عَنْ طريقِ النقلِ والسمعِ لَكِنَّ هُ في أصلهِ إيمانٌ عقلـيٌ،
+لأنَّ أصلَهُ ثَبَتَ بالعقلِ. وَلِذَلكَ كانَ لا بُدَّ مِنْ أن تكونَ العقيـدةُ للمـسلمِ 
+مُستَنِدَةً إلى العقلِ أو إلى ما ثَبَتَ أَصْلُهُ عنْ طريقِ العقلِ . فالمسلمُ يجـبُ أَنْ
+يعتقدَ ما ثبتَ لَهُ عنْ طريقِ العقلِ أو طريقِ السمعِ اليقينِيِّ المقطوعِ بِه،ِ أي ما ثبتَ با لقرآنِ الكريمِ والحديثِ القطعيِّ وهوَ المتواتِرُ، وما لم يثبُتْ عنْ هذيْنِ 
+الطريقيْنِ: العقلِ ونصِّ الكتابِ والسُنَّةِ القطعيَّةِ، يَحْرُمُ عليهِ أنْ يعتقدَهُ، لأنَّ 
+العقائدَ لا تؤخذُ إِلا عن يقينٍ.
+</div>
+<p>
+Jadi, iman kepada Allah itu dapat dicapai melalui akal, dan memang harus demikian. Iman kepada Allah akan menjadi dasar kuat bagi kita untuk beriman terhadap perkara-perkara ghaib dan segala hal yang dikabarkan Allah SWT. Jika kita telah beriman kepada Allah SWT yang memiliki sifat-sifat ketuhanan, maka wajib pula bagi kita untuk beriman terhadap apa saja yang dikabarkan oleh-Nya. Baik hal itu dapat dijangkau oleh akal maupun tidak, karena semuanya dikabarkan oleh Allah SWT. Dari sini kita wajib beriman kepada Hari Kebangkitan dan Pengumpulan di Padang Mahsyar, Surga dan Neraka, hisab dan siksa. Juga beriman terhadap adanya malaikat, jin, dan syaitan, serta apa saja yang telah diterangkan Al-Quran dan hadits yang qath’i. Iman seperti ini, walaupun diperoleh dengan jalan ‘mengutip’ (naql) dan ‘mendengar’ (sama’), akan tetapi pada hakekatnya merupakan iman yang aqli juga. Sebab, dasarnya telah dibuktikan oleh akal. Jadi, akidah seorang Muslim itu harus bersandar kepada akal atau pada sesuatu yang telah terbukti dasar kebenarannya oleh akal. Seorang Muslim wajib meyakini segala sesuatu yang telah terbukti dengan akal atau yang datang dari sumber berita yang yakin dan pasti (qath’i), yaitu apapun yang telah ditetapkan oleh Al-Quran dan hadits qath’i -yaitu hadits mutawatir-. Apa saja yang tidak terbukti oleh kedua jalan tadi, yaitu akal serta nash Al-Quran dan hadits mutawatir, haram baginya untuk mengimani. Akidah tidak boleh diambil kecuali dengan jalan yang pasti.
+</p>
+<hr>
+<!-- pembatas -->		
+	<div class="arab4">
+وعلى ذلك وجَبَ الإيمانُ بما قَبْلَ الحياةِ الدنيا وهو اللهُ تعالى، وبمـا بعدَها وهو يومُ القيامةِ، وبما أنَّ أوامرَ اللهِ هي صِلةُ مَا قبلَ الحيـاةِ بالحيـاةِ 
+بالإضافةِ إلى صِلَةِ الخلْقِ، وأنَّ المُحاسبةَ عمَّا عمِلَ الإنسانُ في الحياةِ صلةُ مَـا 
+بعدَ الحياةِ بالحياةِ بالإضافةِ إلى صِلّةِ البعثِ والنشورِ، فإنه لا بدَّ مِنْ أنْ تكونَ
+لهذِهِ الحياةِ صِلةٌ بما قبلَها وما بعدَها، وأنْ تكونَ أحوالُ الإنسانِ فيها مقيَّـدةً 
+بهذهِ الصلة،ِ فالإنسانُ إذن يجبُ أنْ يكونَ سائراً في الحياةِ وَفْقَ أنظمـةِ اللّٰه،
+وأنْ يعتقدَ أنَّهُ يحاسِبُهُ يومَ القيامةِ على أعمالِهِ في الحياةِ الدنيا.
+</div>
+<p>
+Berdasarkan penjelasan ini, maka kita wajib beriman kepada apa yang ada sebelum kehidupan dunia, yaitu Allah SWT; dan kepada kehidupan setelah dunia, yaitu Hari Akhirat. Bila sudah diketahui bahwa penciptaan dan perintah-perintah Allah merupakan pokok pangkal adanya kehidupan dunia, sedangkan perhitungan amal perbuatan manusia atas apa yang dikerjakannya di dunia merupakan mata rantai dengan kehidupan setelah dunia, maka kehidupan dunia ini harus dihubungkan dengan apa yang ada sebelum kehidupan dunia dan yang ada sesudahnya. Manusia harus terikat dengan hubungan tersebut. Karena itu, manusia wajib berjalan dalam kehidupan ini sesuai dengan peraturan Allah, dan wajib meyakini bahwa ia akan di-hisab di hari kiamat nanti atas seluruh perbuatan yang dilakukannya di dunia.
+</p>
+<hr>
+<!-- pembatas -->		
+	<div class="arab4">
+وبهذا يـكونُ قَدْ وُجِدَ الفكرُ المستنيرُ عَمَّا وراءَ الكـونِِ والحيـاةِ 
+والإنسان،ِ ووُجِدَ الفكرُ المستنيرُ أيضًا عمَّا قبلَ الحياةِ وعمَّا بعدَهَا، وأنَّ لهـا
+صلةً بما قبلَها وما بعدَهَا. وبهذا تكونُ العقدةُ الكبرى قد حُلَّـتْ جميعُهـا 
+بالعقيدةِ الإسلاميَّة
+</div>
+<p>
+Dengan demikian terbentuklah al-fikru al-mustanir tentang apa yang ada di balik alam semesta, hidup, dan manusia. Telah terbentuk pula al-fikru al-mustanir tentang apa yang ada sebelum kehidupan dunia dan yang ada sesudahnya. Bahwasannya kehidupan tersebut memiliki hubungan antara apa yang ada sebelum dan sesudahnya. Dengan demikian, terurailah problematika pokok secara sempurna dengan akidah Islamiyah.
+</p>
+<hr>
+<!-- pembatas -->		
+	<div class="arab4">
+
+ومتى انتهى الإنسانُ منْ هذا الحلِّ أمكنَهُ أَنْ ينتقِلَ إلى الفكرِ عـن الحياةِ الدنيا، وإلى إيجادِ المفاهيمِ الصادقةِ المُنتِجةِ عنها. وكان هذا الحَلُّ نفسُهُ هو الأساسَ الذي يقومُ عليهِ المبدأُ الذي يُتَّخَذُ طريقةً للنُهوضِ، وهو الأساسُ
+الذي تقومُ عليه حضارةُ هذا المبدأ،ِ وهو الأساسُ الذي تنبثِقُ عنهُ أنظمتُـه،ُ 
+وهو الأساسُ الذي تقومُ عليهِ دولتُه.ُ ومِنْ هنا كانَ الأساسُ الذي يقومُ عليه
+الإسلامُ ـ فكرةً وطريقةً ـ هو العقيدةَ الإسلاميةَ.
+</div>
+<p>
+Apabila manusia berhasil memecahkan perkara ini, maka ia dapat beralih memikirkan kehidupan dunia serta mewujudkan mafahim yang benar dan produktif tentang kehidupan ini. Pemecahan inilah yang menjadi dasar bagi berdirinya suatu mabda (ideologi) yang dijadikan sebagai jalan menuju kebangkitan. Pemecahan itu pula yang menjadi dasar bagi berdirinya hadlarah yaitu suatu peradaban yang bertitik tolak dari mabda tadi. Disamping menjadi dasar yang melahirkan peraturan-peraturan dan dasar berdirinya Negara Islam. Dengan demikian, dasar bagi berdirinya Islam —baik secara fikrah (ide dasar) maupun thariqah (metoda pelaksanaan bagi fikrah)— adalah akidah Islam.
+</p>
+<hr>
+<!-- pembatas -->		
+	<div class="arab4">
+ 
+(يٰۤاَ يُّهَا الَّذِيْنَ اٰمَنُوْۤا اٰمِنُوْا بِا للّٰهِ وَرَسُوْلِهٖ وَا لْكِتٰبِ الَّذِيْ نَزَّلَ عَلٰى رَسُوْلِهٖ وَا لْكِتٰبِ الَّذِيْۤ اَنْزَلَ مِنْ قَبْلُ ۗ وَمَنْ يَّكْفُرْ بِا للّٰهِ وَمَلٰٓئِكَتِهٖ وَكُتُبِهٖ وَرُسُلِهٖ وَا لْيَوْمِ الْاٰ خِرِ فَقَدْ ضَلَّ ضَلٰلًاۢ بَعِيْدًا)
+أمَّا وقـدْ ثبَتَ هذا وكانَ الإيمـانُ بِهِ أَمْـرَاً محتوماً كانَ لِزاماً أنْ
+يُؤْمِنَ كُلُّ مسلمٍ بالشريعةِ الإسلاميَّةِ كُلِّهَا، لأَنَّهَا جاءتْ في القرآنِ الكـريمِ، 
+وجاءَ بِهَا الرسولُ وإلا كانَ كافراً، ولذلكَ كـانَ إنكـارُ الأحكـامِ 
+الشرعيَّةِ بجُمْلَتِهَا، أو القطعيَّةِ منها بتفصيلِها، كفراً، سـواءٌ أكانـتْ هـذه 
+الأحكامُ مُــتَّـصِـلـةً بالعبـاداتِ أَم المعـاملاتِ أم العقــوباتِ أم  
+المطـعومات،ِ فالكفرُ بآية: (وأقيموا الصلاة) كالكفرِ بآية:ِ (وَاَحَلَّ اللّٰهُ الۡبَيۡعَ وَحَرَّمَ الرِّبٰوا) وكــالكفرِ بآيــــة: (وَٱلسَّارِقُ وَٱلسَّارِقَةُ فَٱقْطَعُوٓا۟ أَيْدِيَهُمَا) وكالكـفـــرِ بآيـــة: (حرِّمَتْ عَلَيْكُمُ ٱلْمَيْتَةُ وَٱلدَّمُ وَلَحْمُ ٱلْخِنزِيرِ وَمَآ أُهِلَّ لِغَيْرِ ٱللَّهِ بِهِ). ولا يتوقَّفُ الإيْمَانُ بالشَّرِيعةِ على العَقْلِ، بلْ لابُدَّ مِن التَّسليمِ المُطْلقِ بكُلِّ ما جاءَ مِن عندِ اللّٰهِ تعالى: (فَلَا وَرَبِّكَ لَايُؤْمِنُوْنَ حَتّى يُحَكِّمُوكَ فيمَا شَجَرَ بَيْنَهُم ثُمَّ لَايَجِدُوا فِى أَنْفُسِهِم حَرجًا مِمَّا قَضَيْتَ وَيُسَلِّمُوا تَسْلِيْمًا)
+</div>
+<p>
+
+
+Allah Subhanahu Wa Ta'ala berfirman: "Wahai orang-orang yang beriman! Tetaplah beriman kepada Allah dan Rasul-Nya (Muhammad) dan kepada Kitab (Al-Qur'an) yang diturunkan kepada Rasul-Nya, serta kitab yang diturunkan sebelumnya. Barang siapa ingkar kepada Allah, malaikat-malaikat-Nya, kitab-kitab-Nya, rasul-rasul-Nya, dan hari kemudian, maka sungguh, orang itu telah tersesat sangat jauh." (QS. An-Nisa' 4: Ayat 136)
+Apabila semua ini telah terbukti, sedangkan iman kepada- Nya adalah suatu keharusan, maka wajib bagi setiap Muslim untuk beriman kepada syariat Islam secara total. Karena seluruh syariat ini telah tercantum dalam Al-Quran dan dibawa oleh Rasulullah SAW. Apabila tidak beriman, berarti ia kafir. Karena itu penolakan seseorang terhadap hukum-hukum syara’ secara keseluruhan, atau hukum-hukum qath’i secara rinci, dapat menyebabkan kekafiran, baik hukum-hukum itu berkaitan dengan ibadat, muamalah, ‘uqubat (sanksi), ataupun math’umat (yang berkaitan dengan makanan). Jadi kufur terhadap ayat: “Dirikanlah shalat”, sama saja kufur terhadap ayat: “Padahal Allah telah menghalalkan jual beli dan mengharamkan riba” (TQS. Al-Baqarah [2]: 275). Dan sama seperti kufur terhadap ayat: “Laki-laki yang mencuri dan perempuan yang mencuri, potonglah tangan keduanya” (TQS. Al-Maidah [5]: 38).
+Dan sama seperti kufur terhadap ayat: “Diharamkan bagimu (memakan) bangkai, darah, daging babi, dan (daging hewan) yang disembelih atas nama selain Allah” (TQS. Al-Maidah [5]: 3)
+Perlu diketahui bahwa iman terhadap syariat Islam tidak cukup dilandaskan pada akal semata, tetapi juga harus disertai sikap penyerahan total dan penerimaan secara mutlak terhadap segala yang datang dari sisi-Nya, sebagaimana firman Allah SWT: “Maka demi Rabbmu, mereka itu (pada hakekatnya) tidak beriman sebelum mereka menjadikan kamu (Muhammad) sebagai hakim terhadap perkara yang mereka perselisihkan, kemudian mereka tidak merasa di hati mereka suatu keberatan terhadap putusan yang engkau berikan, dan mereka menerima (pasrah) dengan sepenuhnya” (TQS. An-Nisa [4]: 65).
+</p>
+
+		
+      <br />
+    </div>
+  </body>
+</html>
